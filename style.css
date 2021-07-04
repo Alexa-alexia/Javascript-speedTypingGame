@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+body{
+    background: #708db9;
+    text-align: center;
+}
+header h1{  
+    background-color: rgba(0, 0, 0, 0.336);
+    /*width: 1580px; */
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+.row {
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.row .col .lead{
+    
+    font-style: italic;
+    font-weight: 300;
+}
+.row .col .lead span{
+    color: rgb(13, 52, 124);
+}
+.row .col .disp {
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.row .col .lead .disp{
+    font-weight: 100;
+}
+
+.row .col .form{
+    height: 45px;
+    width: 25%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+   
+}
+.row .col .mes {
+    padding-top: 1%;
+}
+.row-1 {
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.row-2 {
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.row-2 .col-2 .card {
+    text-align: center;
+    padding: 1%;
+}
+.row-2 .col-2 .card p {
+    padding-top: 1%;
+}
+
+
+    
+

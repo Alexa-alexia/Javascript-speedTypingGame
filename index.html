@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedTest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Type Fast</h1>
+    </header>
+
+    <!--word & input-->
+    <div class="row">
+        <div class="col">
+            <p class="lead">Type the given word within <span class="tex" id="seconds">5</span> seconds:</p>
+            <h1 class="disp" id="current-word">hello</h1>
+            <input type="text" id="word-input" class="form" placeholder="Start typing..." autofocus>
+            <h4 class="mes" id="message"></h4>
+        </div>
+    </div>
+
+    <!--Time & Score columns-->
+    <div class="row-1">
+        <div class="col-1">
+            <h3>Time Left: <span id="time">0</span></h3>
+        </div>
+        <div class="col-3">
+            <h3>Score: <span id="score">0</span></h3>
+        </div>
+    </div>
+
+    <!--Instructions-->
+    <div class="row-2">
+        <div class="col-2">
+            <div class="card">
+                <h4>Instructions</h4>
+                <p>Type each word in the given amount of 
+                    seconds <br> to score. To play again,
+                    just type the current <br> word. Your 
+                    score will reset.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
